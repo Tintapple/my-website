@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<HTML lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -157,6 +157,39 @@
     </div>
     <button type="submit">Sign me up!</button>
   </form>
+  <hr />
+  
+  <>
+    <h2>Forms pt2</h2>
+    <!-- Radio Buttons -->
+     <!-- use Attribute checked to have the option be checked by default. -->
+    <form action="POST"></form>
+    <p>What is your preferred way to be contacted?  </p>
+    <input type="Radio" id="email" name="contact" value="email">
+    <label for="email">Email</label>
+    <input type="Radio" id="phone" name="contact" value="phone" checked>
+    <label for="phone">Phone</label>
 
-  </body>
+    <!--Checkboxes-->
+    <p>Select Your Skills</p>
+    <input type="checkbox" name="skills" id="html" value="html" checked>
+    <label for="html">HTML</label>
+    <input type="checkbox" name="skills" id="css" value="css" checked>
+    <label for="css">CSS</label>
+
+    <!--Text Area-->
+    <div
+      <label for="message">Your Message</label>
+      <textarea name="message" value="message" id="message" rows="4 cols=10"> </textarea>
+
+    </div>
+
+    <!--Dropdown Menus-->
+    <label for="car">Choose a car</label>
+    <select name="car" id="car">
+        <option value="volvo">volvo</option>
+        <option value="toyota">toyota</option>
+        <option value="honda">honda</option>
+    </select>
+  </form>
 </html>

@@ -78,8 +78,8 @@ console.log(bio);
 
 //Prompt
 //Bill and Tip Calculator
-const bill=Number(prompt("Enter the bill amount: "));
-const tip=Number(prompt("Enter the tip percentage: "));
-tipAmount=(bill*tip)/100;
-totalAmount=bill+tipAmount
-console.log(totalAmount)
+// const bill=Number(prompt("Enter the bill amount: "));
+// const tip=Number(prompt("Enter the tip percentage: "));
+// tipAmount=(bill*tip)/100;
+// totalAmount=bill+tipAmount
+// console.log(totalAmount)
