@@ -6,6 +6,31 @@
     <title>Recipe - Submit</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Submit Your Recipe</h1>
+        <nav>
+            <a href="recipe-home.html">Recipe Home</a>
+        </nav>
+    </header>
+    <main>
+        <form action="recipe-submit.html" method="POST">
+            <div>
+                <label for="Name ">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="category">Vietnamese Food Category:</label>
+                <select id="category" name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="appetizer">Appetizer</option>
+                    <option value="main_course">Main Course</option>
+                    <option value="dessert">Dessert</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
