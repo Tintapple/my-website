@@ -15,8 +15,12 @@
     <main>
         <form action="recipe-submit.html" method="POST">
             <div>
-                <label for="Name ">Your Name:</label>
+                <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
             </div>
             <div>
                 <label for="category">Vietnamese Food Category:</label>
@@ -26,6 +30,10 @@
                     <option value="main_course">Main Course</option>
                     <option value="dessert">Dessert</option>
                 </select>
+            </div>
+            <div>
+                <label for="recipe">Recipe:</label>
+                <textarea id="recipe" name="recipe" rows="5" required></textarea>
             </div>
             <div>
                 <button type="submit">Submit</button>
