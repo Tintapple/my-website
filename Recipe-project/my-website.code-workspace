@@ -1,0 +1,18 @@
+{
+  "folders": [
+	{
+		"name": "my-website",
+		"path": ".."
+	},
+	{
+		"name": "Pages",
+		"path": "../../../Desktop/Pages"
+	},
+	{
+		"path": "../../../Desktop/Images"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "my-website"
+  }
+}
