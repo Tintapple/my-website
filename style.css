@@ -3,6 +3,8 @@ a {text-decoration: none;}
 .footer-text{font-size: 12px;}
 .main-text{background-color:red}
 .first-p{background-color: yellow; color: black;}
+p{font-family: "Google Sans Flex", sans-serif;}
+h1{font-family: "Helvetica", sans-serif; font-weight: bold;}
 .first-p{border: 2px solid black;
     padding:10px;
     margin:20px;}
