@@ -1,1 +1,15 @@
 body {background-color: rgb(228, 173, 173);}
+/* Main styling */
+.hero-section {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJjyGAAtYNtWe3Xf9j-7C1f0vqakWi6OCzcfEdSmDt5g&s=10");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-info{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width:40%;
+    border-radius:50px;
+    padding:.5em .75em;
+    
+}
