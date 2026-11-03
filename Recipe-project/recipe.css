@@ -29,17 +29,17 @@ body {background-color: rgb(228, 173, 173);}
     height:40%;
     box-shadow: 5px 3px 2px black;
     margin:20px;
-    li a{color:white;
-        text-decoration: none;
-        background-color:black;
-        padding: 3px;
-        border-radius: 50px;
-        box-shadow: 2px 2px 2px grey;
-        margin:20px
-    }
-    img{
-        border-radius:50px;
-        box-shadow: 2px 2px 2px grey;
-        margin:10px;
-    width:50%}
 }
+li a{color:white;
+    text-decoration: none;
+    background-color:black;
+    padding: 3px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px grey;
+    margin:20px
+    }
+img{
+    border-radius:50px;
+    box-shadow: 2px 2px 2px grey;
+    margin:10px;
+width:50%}
