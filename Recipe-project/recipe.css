@@ -28,8 +28,23 @@ body {background-color: rgb(228, 173, 173);}
     border-radius:50px;
     height:40%;
     box-shadow: 5px 3px 2px black;
-    margin:20px;
+    margin:20px;}
+.fa-heart{
+    margin-top:5%;
+    color:white;
+    right:60%;
+    position: absolute;
+    cursor:pointer;
+    transition:all 1s ease;
 }
+.fa-heart:hover{
+    display:inline-block;
+    transform:scale(2);
+    color:red;
+    
+}
+
+
 li a{color:white;
     text-decoration: none;
     background-color:black;
