@@ -81,6 +81,25 @@ div.box3{
     padding:10px;
     margin-top:100px;
 }
+
+.home-section{
+    width:600px;
+    Height:600px;
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.home-section div{
+    width:150px;
+    height:150px;
+    border: 2px solid black;
+}
+
+.box-1{}
+
+.box-3{}
 /* There is 50px between the window and the element in box 2 */
 /* There is 100px between the element in box 3 and the bottom of box 2 */
 /* Box 1 color background expanded because we used the padding instead of the margin*/
