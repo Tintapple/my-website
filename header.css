@@ -2,7 +2,33 @@
 
 /* header styling */
 header{background-color: #003049; border-top-left-radius:50px; border-bottom-right-radius:50px;padding: 30px;}
-nav a{ background-color:white; color:black;padding: 3px;margin-top:10px;border-radius:50px;width: 80px; border:2px solid black}
-.active{font-weight: bold; text-decoration: underline white; background-color: #000; color:white; padding: 3px;border-radius:50px;width: 80px; border:2px solid black}
+nav a{ background-color:white; color:black;padding: 10px;margin-top:10px;border-radius:50px; border:2px solid black}
+.active{font-weight: bold; text-decoration: underline white; background-color: #000; color:white; padding: 10px;border-radius:50px; border:2px solid black}
 .bulldog{width:100px;height:100px;}
 
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+}
+header nav a{ 
+    margin:2px
+}
+
+/* Footers */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    font-size: 40px;
+    width:40px;
+    height:40px;
+    color:black
+}
