@@ -17,9 +17,11 @@ header nav{
     align-items: flex-start;
 }
 header nav a{ 
-    margin:2px
+    margin:2px;
+    
 }
-
+/* Main edits */
+main{padding: 20px;}
 /* Footers */
 footer{
     display: flex;
