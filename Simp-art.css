@@ -15,9 +15,17 @@ nav a{
 }
 h1{
     font-family: "Modern Antiqua", serif;
+    font-weight: bold;
 }
-h2{
-    font-family:"Roboto Condensed", sans-serif;
+.art-title{
+    font-family:"Roboto Condensed";
+    font-weight: bold;
+    font-size: 2rem;
+    color:black;
+    text-decoration: none;
+
+
+
 }
 p{
     font-family: "Comic Neue", cursive ;
