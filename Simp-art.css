@@ -55,6 +55,6 @@ img{
 /* Footer */
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     color:black;
     }
