@@ -14,7 +14,13 @@ nav a{
     box-shadow:6px 6px 8px -4px black;
 }
 h1{
-    font-family: cursive
+    font-family: "Modern Antiqua", serif;
+}
+h2{
+    font-family:"Roboto Condensed", sans-serif;
+}
+p{
+    font-family: "Comic Neue", cursive ;
 }
 
 /* Main Edits */
@@ -41,4 +47,6 @@ img{
 /* Footer */
 footer{
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+    color:black;
+    }
